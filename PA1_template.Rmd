@@ -107,6 +107,8 @@ tmpd<-dt[, sum(steps,na.rm=TRUE), by="date"]
 hist(tmpd$V1,main="Histogram of Number of Steps per day",xlab="steps")
 ```
 
+
+Calculate the Mean and Median Averages
 ```{r}
 mean(tmpd$V1,na.rm=TRUE)
 median(tmpd$V1,na.rm=TRUE)

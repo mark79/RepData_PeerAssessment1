@@ -150,6 +150,8 @@ hist(tmpd$V1,main="Histogram of Number of Steps per day",xlab="steps")
 ![](PA1_template_files/figure-html/unnamed-chunk-8-1.png) 
 
 
+Calculate the Mean and Median Averages
+
 ```r
 mean(tmpd$V1,na.rm=TRUE)
 ```
